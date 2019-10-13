@@ -1,0 +1,40 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/config/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/dist/static/js/app.4916a3fb10a759976f34.js" />
+        <item url="file://$PROJECT_DIR$/dist/dist/static/js/app.57e03513b4ea1d67ab0d.js" />
+        <item url="file://$PROJECT_DIR$/dist/dist/static/js/manifest.0d9d244d1c966984e499.js" />
+        <item url="file://$PROJECT_DIR$/dist/dist/static/js/manifest.749045227f8477925f40.js" />
+        <item url="file://$PROJECT_DIR$/dist/dist/static/js/manifest.edeb7c52302c59f86282.js" />
+        <item url="file://$PROJECT_DIR$/dist/dist/static/js/vendor.2ba8896221d9c0f34bae.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/api/api.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/api/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/main.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/mock/data/user.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/mock/index.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/mock/mock.js" />
+        <item url="file://$PROJECT_DIR$/dist/src/routes.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/config/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/static/js/app.4916a3fb10a759976f34.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/static/js/app.57e03513b4ea1d67ab0d.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/static/js/manifest.0d9d244d1c966984e499.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/static/js/manifest.749045227f8477925f40.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/static/js/manifest.edeb7c52302c59f86282.js" />
+      <root url="file://$PROJECT_DIR$/dist/dist/static/js/vendor.2ba8896221d9c0f34bae.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/api/api.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/api/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/main.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/mock/data/user.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/mock/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/mock/mock.js" />
+      <root url="file://$PROJECT_DIR$/dist/src/routes.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
