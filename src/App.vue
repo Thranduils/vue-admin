@@ -5,6 +5,7 @@
 			<router-view></router-view>
 		</transition>
 	</div>
+	
 </template>
 
 <script>
@@ -17,7 +18,9 @@ export default {
 </script>
 
 <style lang="scss">
+html,
 body {
+	height: 100%;
 	margin: 0px;
 	padding: 0px;
 	/*background: url(assets/bg1.jpg) center !important;
@@ -33,6 +36,8 @@ body {
 	top: 0px;
 	bottom: 0px;
 	width: 100%;
+	height: 100%;
+	overflow: hidden !important;
 }
 
 .el-submenu [class^=fa] {

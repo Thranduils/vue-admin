@@ -5,20 +5,22 @@ const LoginUsers = [
     username: 'admin',
     password: '123456',
     avatar: 'https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/user.png',
-    name: '张某某'
+    name: '用户名'
   }
 ];
 
 const Users = [];
 
-for (let i = 0; i < 86; i++) {
+for (let i = 0; i < 96; i++) {
   Users.push(Mock.mock({
-    id: Mock.Random.guid(),
-    name: Mock.Random.cname(),
-    addr: Mock.mock('@county(true)'),
-    'age|18-60': 1,
-    birth: Mock.Random.date(),
-    sex: Mock.Random.integer(0, 1)
+      id: Mock.Random.guid(),
+      name2: Mock.Random.province(),
+      category: Mock.Random.integer(0, 1),
+      'score|1-5.1': 1,
+      sincerity: Mock.Random.integer(0, 1),
+      hotspot: Mock.Random.integer(0, 1),
+      top: Mock.Random.integer(0, 1),
+      ticket: Mock.Random.integer(0, 1)
   }));
 }
 
