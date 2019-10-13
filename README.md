@@ -1,4 +1,4 @@
-**demo**: [https://taylorchen709.github.io/vue-admin/](https://taylorchen709.github.io/vue-admin/)
+**demo**: [https://Thranduils.github.io/vue-admin/](https://Thranduils.github.io/vue-admin/)
 
 # To start
 
@@ -46,8 +46,8 @@ You can change theme by
 ```
 4. Edit src/styles/vars.scss
 
-![theme-blue](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/rec-demo.gif)
-![theme-green](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/theme-green.png)
+![theme-blue](https://raw.githubusercontent.com/Thranduils/markdown-images/master/vueadmin/rec-demo.gif)
+![theme-green](https://raw.githubusercontent.com/Thranduils/markdown-images/master/vueadmin/theme-green.png)
 
 # Browser support
 
