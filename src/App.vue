@@ -1,5 +1,6 @@
 <template>
 	<div id="app">
+		哈哈哈哈
 		<transition name="fade"
 		            mode="out-in">
 			<router-view></router-view>
