@@ -10,96 +10,93 @@
 哈哈哈哈
   <div id="app">
     哈哈哈哈2
-    <template>
-      哈哈哈哈3
-      <section class="chart-container">
-        哈哈哈哈4
-        <el-row>
-          <el-col :span="6" v-for="o in 4" :key="o" class="chart-row">
-            <el-card class="box-card">
-              <div slot="header" class="clearfix">
-                <span>卡片名称</span>
-                <el-button style="float: right; padding: 3px 0" type="text">操作按钮</el-button>
-              </div>
-              <div v-for="o in 4" :key="o" class="text item">
-                {{'列表内容 ' + o }}
-              </div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="circleChart" :style="{width: '300px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="gaugeChart" :style="{width: '300px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="ringPieChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="roseChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="24" class="chart-row">
-            <el-card class="box-card">
-              <div id="lineChart" :style="{width: '900px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="smoothLineChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="areaLineChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="24" class="chart-row">
-            <el-card class="box-card">
-              <div id="seriesRingPieChart" :style="{width: '900px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="multiBarChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="barChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="noBarChart" :style="{width: '400px', height: '400px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" class="chart-row">
-            <el-card class="box-card">
-              <div id="tBarChart" :style="{width: '400px', height: '400px', align: 'center'}"></div>
-            </el-card>
-          </el-col>
-          <el-col :span="12" v-for="o in 2" :key="o" class="chart-row">
-            <el-card class="box-card">
-              <div slot="header" class="clearfix">
-                <span>卡片名称</span>
-                <el-button style="float: right; padding: 3px 0" type="text">操作按钮</el-button>
-              </div>
-              <div v-for="o in 4" :key="o" class="text item">
-                {{'列表内容 ' + o }}
-              </div>
-            </el-card>
-          </el-col>
-        </el-row>
-      </section>
-    </template>
+    <section class="chart-container">
+      哈哈哈哈4
+      <el-row>
+        <el-col :span="6" v-for="o in 4" :key="o" class="chart-row">
+          <el-card class="box-card">
+            <div slot="header" class="clearfix">
+              <span>卡片名称</span>
+              <el-button style="float: right; padding: 3px 0" type="text">操作按钮</el-button>
+            </div>
+            <div v-for="o in 4" :key="o" class="text item">
+              {{'列表内容 ' + o }}
+            </div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="circleChart" :style="{width: '300px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="gaugeChart" :style="{width: '300px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="ringPieChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="roseChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="24" class="chart-row">
+          <el-card class="box-card">
+            <div id="lineChart" :style="{width: '900px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="smoothLineChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="areaLineChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="24" class="chart-row">
+          <el-card class="box-card">
+            <div id="seriesRingPieChart" :style="{width: '900px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="multiBarChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="barChart" :style="{width: '400px', height: '300px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="noBarChart" :style="{width: '400px', height: '400px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" class="chart-row">
+          <el-card class="box-card">
+            <div id="tBarChart" :style="{width: '400px', height: '400px', align: 'center'}"></div>
+          </el-card>
+        </el-col>
+        <el-col :span="12" v-for="o in 2" :key="o" class="chart-row">
+          <el-card class="box-card">
+            <div slot="header" class="clearfix">
+              <span>卡片名称</span>
+              <el-button style="float: right; padding: 3px 0" type="text">操作按钮</el-button>
+            </div>
+            <div v-for="o in 4" :key="o" class="text item">
+              {{'列表内容 ' + o }}
+            </div>
+          </el-card>
+        </el-col>
+      </el-row>
+    </section>
 
 
   </div>
